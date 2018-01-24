@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <in.idk.tattoomaniacs.activity.activity.TouchImageView
+        android:id="@+id/image_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+
+        android:scaleType="fitCenter" />
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:fontFamily="sans-serif-light"
+       android:text="Swipe Left/Right And Pinch To Zoom \u263a"
+       android:textColor="#ffffff"
+       android:textSize="20sp"/>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        fab:fab_addButtonColorNormal="#25BAA2"
+
+
+        android:layout_marginBottom="35dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#25BAA2"
+            android:src="@drawable/ic_menu_send"
+            fab:fab_title="Send Image"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/wallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#25BAA2"
+            android:src="@drawable/image_area"
+            fab:fab_title="Set Wallpaper" />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#25BAA2"
+            android:src="@drawable/download"
+            fab:fab_title="Download Image"/>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>

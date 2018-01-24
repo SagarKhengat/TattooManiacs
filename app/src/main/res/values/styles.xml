@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#25BAA2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#25BAA2</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">#25BAA2</item>
+        <item name="android:bottomDark">#25BAA2</item>
+        <item name="android:bottomMedium">#25BAA2</item>
+        <item name="android:centerBright">#25BAA2</item>
+        <item name="android:centerDark">#25BAA2</item>
+        <item name="android:centerMedium">#25BAA2</item>
+        <item name="android:fullBright">#25BAA2</item>
+        <item name="android:fullDark">#25BAA2</item>
+        <item name="android:topBright">#25BAA2</item>
+        <item name="android:topDark">#25BAA2</item>
+    </style>
+</resources>

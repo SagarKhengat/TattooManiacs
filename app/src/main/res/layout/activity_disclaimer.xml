@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_disclaimer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/newback2"
+    tools:context="in.idk.tattoomaniacs.Disclaimer">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/disclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISCLAIMER"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+
+        android:text="The images used in this Application are found from different sources all over the Internet, and are assumed to be in public domain and are displayed under the fair use principle.
+
+\n\nIf you are the owner of the images and you believe that their use in this Application is in violation of any copyright law, then please contact me on \n\n khengatsagar@gmail.com \n\nand I will get back to you as soon as possible to resolve the issue.
+
+\n\nThe TattooManiacs is meant to share the best images I find on the Internet with other TATTOO Design enthusiasts, and is not meant to deliberately infringe on the rights of the image owners. \n\nI respect all the intellectual property of the owners, and will modify the posts or remove the images at the owners' request."
+        android:textSize="25sp"
+        android:layout_below="@id/disclaimer"
+        android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TattooManiacs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-6222232916855878/5732205742</string>
+    <string name="banner_ad_unit_id1">ca-app-pub-6222232916855878/1661932946</string>
+
+
+    <string name="nav_drawer_recently_added">Recently Added</string>
+    <string name="toast_saved">Wallpapaer saved to #</string>
+    <string name="toast_saved_failed">Sorry! Failed to save wallpaper</string>
+    <string name="toast_wallpaper_set">Wallpapaer updated!</string>
+    <string name="toast_wallpaper_set_failed">Sorry! Unable to set wallpapaer</string>
+    <string name="splash_error">Unable to download wallpapers. Verify your google\'s user name in settings or device doesn\'t have internet connection!</string>
+    <string name="set_wallpaper">Set</string>
+    <string name="download_wallpaper">Download</string>
+    <string name="msg_unknown_error">Sorry! Unknown error occurred.</string>
+    <string name="msg_wall_fetch_error">Sorry! Unable to fetch Image(s). Verify app settings or device doesn\'t have internet connection.</string>
+    <string name="toast_enter_google_username">Please enter google username</string>
+    <string name="toast_enter_valid_grid_columns">Please enter valid number of columns</string>
+    <string name="toast_enter_gallery_name">Please enter gallery directory name</string>
+    <string name="lbl_google_username">Google username</string>
+    <string name="lbl_no_grid_columns">Number of grid columns</string>
+    <string name="lbl_gallery_name">Gallery directory name</string>
+    <string name="lbl_btn_save">Save</string>
+    <string name="ok_text">OK</string>
+    <string name="action_settings">Settings</string>
+</resources>

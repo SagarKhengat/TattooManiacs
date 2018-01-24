@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "39941092450",
+    "firebase_url": "https://tattoomaniacs-2b655.firebaseio.com",
+    "project_id": "tattoomaniacs-2b655",
+    "storage_bucket": "tattoomaniacs-2b655.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39941092450:android:0bd90bcb82ad23f9",
+        "android_client_info": {
+          "package_name": "in.idk.tattoomaniacs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39941092450-e2l1foiqska5a1vnm5mmcq5p6smkaijb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.idk.tattoomaniacs",
+            "certificate_hash": "35FD98625399625345B56B33FECDDA6D950E623C"
+          }
+        },
+        {
+          "client_id": "39941092450-41lq827ipdsdhbahjt4lmivmlg1ai797.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxNgQwo0RcStQ3QuUygvWG9j71ftLrn_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39941092450-41lq827ipdsdhbahjt4lmivmlg1ai797.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
